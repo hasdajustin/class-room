@@ -95,33 +95,3 @@ npm run dev
 bun dev
 ```
 Open http://localhost:3000 (or the address shown in your terminal) in your browser.
-
-### Project Directory Tree
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── index.html
-└── src/
-    ├── main.tsx
-    ├── App.tsx
-    ├── index.css
-    ├── types.ts
-    ├── components/
-    │   ├── common/
-    │   ├── home/
-    │   ├── course/
-    │   ├── quiz/
-    │   ├── dashboard/
-    │   └── admin/
-    └── pages/
-        ├── Home.tsx
-        ├── Courses.tsx
-        ├── CourseDetails.tsx
-        ├── Quiz.tsx
-        ├── Forum.tsx
-        ├── LiveClass.tsx
-        ├── Login.tsx
-        ├── Register.tsx
-        ├── Profile.tsx
-        ├── Dashboard.tsx
-        └── admin/
