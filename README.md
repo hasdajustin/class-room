@@ -4,18 +4,6 @@ Classroom is a modern, responsive, and highly interactive online learning platfo
 
 **Explore the live platform:** [https://class-room-omega.vercel.app/](https://class-room-omega.vercel.app/)
 
----
-
-## Table of Contents
-1. [Core Features](#core-features)
-2. [Tech Stack](#tech-stack)
-3. [Prerequisites](#prerequisites)
-4. [Local Setup Guide](#local-setup-guide)
-5. [Scripts & Development](#scripts--development)
-6. [Project Directory Tree](#project-directory-tree)
-
----
-
 ## Core Features
 
 - **Personalized Home Experience**: Hero section, feature highlights, and real-time interactive exam countdowns tailored for HSC/SSC/JSC candidates.
