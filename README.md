@@ -57,5 +57,71 @@ Follow these steps to run Classroom on your local development machine:
 ### Step 1: Create the Project Folder
 Open your terminal and run:
 ```bash
-mkdir classroom-platform
-cd classroom-platform
+mkdir class-room
+cd class-room
+```
+### Step 2: Configure Project Files
+Ensure the following essential root files are present:
+1.package.json: Dependencies and project scripts.
+2.tsconfig.json: TypeScript configuration.
+3.vite.config.ts: Vite, Tailwind, and React configuration.
+4.index.html: The main entry point for the application.
+
+### Step 3: Install Dependencies
+Run the installation command in your terminal:
+```bash
+# Using npm
+npm install
+
+# Or using Bun
+bun install
+```
+
+### Step 4: Add Source Code
+Ensure the src/ directory is placed in your project root with the following structure:
+1. src/main.tsx — App entry point
+2. src/App.tsx — Routing and layout shell
+3. src/index.css — Tailwind styles
+4. src/components/ — Atomic UI components
+5. src/pages/ — Main view pages
+
+### Step 5: Start the Development Server
+Run the following command:
+```bash
+# Using npm
+npm run dev
+
+# Or using Bun
+bun dev
+```
+Open http://localhost:3000 (or the address shown in your terminal) in your browser.
+
+### Project Directory Tree
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── index.html
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    ├── types.ts
+    ├── components/
+    │   ├── common/
+    │   ├── home/
+    │   ├── course/
+    │   ├── quiz/
+    │   ├── dashboard/
+    │   └── admin/
+    └── pages/
+        ├── Home.tsx
+        ├── Courses.tsx
+        ├── CourseDetails.tsx
+        ├── Quiz.tsx
+        ├── Forum.tsx
+        ├── LiveClass.tsx
+        ├── Login.tsx
+        ├── Register.tsx
+        ├── Profile.tsx
+        ├── Dashboard.tsx
+        └── admin/
