@@ -2,7 +2,7 @@
 
 Classroom is a modern, responsive, and highly interactive online learning platform designed specifically to empower students from Class 6 to Class 12 across Bangladesh. Built with **React**, **Vite**, **Tailwind CSS v4**, **TypeScript**, and **Framer Motion**, it offers localized, board-specific academic curriculum preparation, dynamic countdowns, customizable study goals, interactive practice quizzes, a live-class scheduler, and a collaborative student discussion forum.
 
-This guide provides comprehensive, step-by-step instructions to copy, run, and develop this project locally.
+**Explore the live platform:** [https://class-room-omega.vercel.app/](https://class-room-omega.vercel.app/)
 
 ---
 
@@ -18,13 +18,13 @@ This guide provides comprehensive, step-by-step instructions to copy, run, and d
 
 ## Core Features
 
-- **Personalized Home Experience**: Features a hero section, feature highlights, and real-time interactive exam countdowns tailored for HSC/SSC/JSC candidates.
-- **Dynamic Board Exam Countdown & Study Goals**: An integrated study planning widget to track exam timing and set custom, checkable goals.
-- **Comprehensive Course Directories**: Filterable board exam prep materials with curriculum syllabus mapping, lecture video tabs, and reference materials.
-- **Interactive Quiz Engine**: Practice multiple-choice questions (MCQs) with instant grade reporting and timed challenges.
-- **Collaborative Discussion Forum**: A platform to create threads, post solutions, and upvote community inquiries.
-- **Interactive Live Class Scheduler**: Real-time scheduled live classes with interactive joining flags.
-- **Student & Admin Portals**: Dedicated dashboards for learning progress visualization and administrative course management.
+- **Personalized Home Experience**: Hero section, feature highlights, and real-time interactive exam countdowns tailored for HSC/SSC/JSC candidates.
+- **Dynamic Board Exam Countdown & Study Goals**: Integrated study planning widget to track exam dates and set custom study goals.
+- **Comprehensive Course Directories**: Filterable curriculum-mapped course materials with lecture video tabs and reference PDFs.
+- **Interactive Quiz Engine**: Practice multiple-choice questions (MCQs) with instant grading, feedback, and explanation systems.
+- **Collaborative Discussion Forum**: Community-driven space for students to ask questions, post solutions, and upvote helpful answers.
+- **Live Class Scheduler**: Real-time management of upcoming virtual lectures with integrated "Join Now" indicators.
+- **Student & Admin Portals**: Dedicated dashboards for student progress tracking and administrative course/user management.
 
 ---
 
@@ -36,7 +36,7 @@ This guide provides comprehensive, step-by-step instructions to copy, run, and d
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Animations**: [Motion](https://motion.dev/)
-- **Charts/Analytics**: [Recharts](https://recharts.org/)
+- **Charts**: [Recharts](https://recharts.org/)
 - **Router**: [React Router DOM v7](https://reactrouter.com/)
 
 ---
@@ -46,7 +46,7 @@ This guide provides comprehensive, step-by-step instructions to copy, run, and d
 Before setting up the project locally, ensure you have the following installed:
 
 1. **Node.js**: Version `18.x` or higher (Recommended: `20.x` LTS). Download from [nodejs.org](https://nodejs.org/).
-2. **Package Manager**: `npm` (bundled with Node), `yarn`, or `bun`.
+2. **Package Manager**: `npm`, `yarn`, or `bun`.
 
 ---
 
