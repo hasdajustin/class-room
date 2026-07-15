@@ -1,0 +1,6 @@
+{
+  "name": "Classroom - E-Learning Platform",
+  "description": "বাংলাদেশের শিক্ষার্থীদের জন্য একটি অনলাইন লার্নিং প্ল্যাটফর্ম (Class 6-HSC) যেখানে তারা কোর্স, নোট, কুইজ এবং লাইভ ক্লাসের সুবিধা পাবে ক্লাসরুম অ্যাপ্লিকেশনের মাধ্যমে।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
